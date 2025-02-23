@@ -6,13 +6,20 @@ let voices =[];
 
 let voiceSelect = document.getElementById("voices");
 
-window.speechSynthesis.onvoiceschanged = ()=>{
+function updateVoices(){
     voices = window.speechSynthesis.getVoices();
     speech.voice = voices[0];
 
     voices.forEach((voice,i)=>(voiceSelect.options[i] = new Option(voice.name,i)
 )
 );
+}
+
+if (window.speechSynthesis.onvoiceschanged !== undefined) {
+    window.speechSynthesis.onvoiceschanged = updateVoices;
+}
+if (voices.length === 0) {
+    updateVoices();
 }
 
 voiceSelect.addEventListener("change",()=>{
