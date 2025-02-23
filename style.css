@@ -13,8 +13,7 @@
 }
 .main{
     width: 600px;
-    /* min-height: 100px; */
-    /* background-color: #3d2c71; */
+  
     background-color: rgba(93, 215, 242, 0.095);
     padding: 10px;
     color: #fff;
@@ -88,13 +87,13 @@
 @media (max-width:620px){
     .container{
         width: 100vW;
-        height: 120vh;
+        height: 100vh;
         align-items:flex-start;
     }
     .main{
         width: 300px;
         height: 400px;
-        margin-top: 20%;
+        margin-top: 35%;
     }
     .main h1{
         font-size: 18px;
