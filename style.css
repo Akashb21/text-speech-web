@@ -88,12 +88,13 @@
 @media (max-width:620px){
     .container{
         width: 100vW;
-        height: 130vh;
-        
+        height: 120vh;
+        align-items:flex-start;
     }
     .main{
         width: 300px;
         height: 400px;
+        margin-top: 20%;
     }
     .main h1{
         font-size: 18px;
