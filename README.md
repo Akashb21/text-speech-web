@@ -2,7 +2,7 @@
 
 Welcome to the Text-to-Speech Website, a simple and interactive web application built using HTML, CSS, and JavaScript! 🎤💻 This project allows users to input text and hear it spoken aloud with different voice options. 🎶
 
-📌 Features
+## 📌 Features
 
 🔹 Convert Text to Speech: Enter text and listen to it being read aloud.
 🔹 Voice Selection: Choose from different available voices.
